@@ -1,0 +1,27 @@
+{
+    "name": "@flowtr/app-media",
+    "version": "1.0.0",
+    "description": "Panel app for streaming media",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/throw-out-error/flowtr-app-media.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/throw-out-error/flowtr-app-media/issues"
+    },
+    "homepage": "https://github.com/throw-out-error/flowtr-app-media#readme",
+    "dependencies": {
+        "node-media-server": "^2.2.4"
+    },
+    "devDependencies": {
+        "eslint": "^7.13.0",
+        "prettier": "^2.1.2"
+    }
+}

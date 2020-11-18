@@ -5,3 +5,4 @@ services:
         ports:
             - "8000:8000"
             - "1935:1935"
+        env_file: .env

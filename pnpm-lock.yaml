@@ -1,4 +1,5 @@
 dependencies:
+  dotenv: 8.2.0
   node-media-server: 2.2.4
 devDependencies:
   eslint: 7.13.0
@@ -291,6 +292,12 @@ packages:
       node: '>=6.0.0'
     resolution:
       integrity: sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==
+  /dotenv/8.2.0:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
   /ee-first/1.1.1:
     dev: false
     resolution:
@@ -1192,6 +1199,7 @@ packages:
     resolution:
       integrity: sha512-jaHFD6PFv6UgoIVda6qZllptQsMlDEJkTQcybzzXDYM1XO9Y8em691FGMPmM46WGyLU4z9KMgQN+qrux/nhlHA==
 specifiers:
+  dotenv: ^8.2.0
   eslint: ^7.13.0
   node-media-server: ^2.2.4
   prettier: ^2.1.2

@@ -18,6 +18,7 @@
     },
     "homepage": "https://github.com/throw-out-error/flowtr-app-media#readme",
     "dependencies": {
+        "dotenv": "^8.2.0",
         "node-media-server": "^2.2.4"
     },
     "devDependencies": {

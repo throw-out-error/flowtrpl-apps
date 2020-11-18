@@ -1,3 +1,7 @@
 .dccache
 .vscode/
 node_modules/
+*.env*
+*.log*
+logs/
+dist/
